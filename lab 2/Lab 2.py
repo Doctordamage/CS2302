@@ -233,7 +233,7 @@ randomGeneratedList = List()
 for i in range(random.randrange(11)):
     Prepend(randomGeneratedList, random.randrange(100))
 
-print('Original list: ')
+print('list: ')
 Print(randomGeneratedList)
 print('Bubble sort median: ', BubbleSortMedian(randomGeneratedList))
 print('Merge sort median: ', MergeSortMedian(randomGeneratedList))
